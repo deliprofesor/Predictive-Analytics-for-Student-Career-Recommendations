@@ -2,7 +2,8 @@
 
 This project focuses on analyzing student placement data to predict academic outcomes and career preferences. Statistical analysis, machine learning algorithms, and regression models were utilized to process the data and derive valuable insights. The dataset contains information about students' academic performance, hackathon participation, and career preferences.
 
-![stu](https://github.com/user-attachments/assets/158ff065-988a-4085-beef-5f02a23201e9)
+![student](https://github.com/user-attachments/assets/484ad7fa-32ee-4fc7-80c2-e47ad4eabf8f)
+
 
 Academic Performance: Percentage scores in various subjects.
 Hackathon Participation: The number of hackathons attended by students.
