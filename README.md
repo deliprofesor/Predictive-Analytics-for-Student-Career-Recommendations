@@ -19,10 +19,12 @@ The goal was to examine relationships between numerical variables. A correlation
 Categorical Analysis
 The project explored the impact of hackathon participation on career preferences (job or higher studies). Students were grouped based on the number of hackathons attended. The distribution of job/higher studies preferences was analyzed as percentages. Hackathon participation was observed to influence students' career preferences.
 
-Handling Missing Data
+## Handling Missing Data
+
 Missing data was identified and filled with column-specific mean or median values. This step was crucial to maintain consistency in the analysis.
 
-Regression Models
+## Regression Models
+
 Linear Regression: Predicted the percentage score in Operating Systems. Categorical variables were converted to numerical data using LabelEncoder. The data was split into 70% training and 30% testing sets. The model was trained and predictions were made.
 
 Performance Metrics:
@@ -30,6 +32,7 @@ Performance Metrics:
 Mean Squared Error (MSE)
 Mean Absolute Error (MAE)
 R² Score
+
 The linear regression model provided a baseline for predictions.
 
 Polynomial Regression: Captured non-linear relationships in the data. Polynomial features were generated, and the model was trained. Predictions were made, and performance metrics were evaluated. Polynomial regression achieved better prediction accuracy than linear regression.
@@ -39,10 +42,12 @@ Polynomial Regression: Captured non-linear relationships in the data. Polynomial
 
 Support Vector Regression (SVR): Modeled complex data patterns using an RBF kernel. Data was standardized using StandardScaler. The SVR model was trained and predictions were made. SVR performed better in non-linear relationships.
 
-Model Comparison and Visualization
+## Model Comparison and Visualization
+
 Prediction results were visualized using scatter plots. Actual values and predictions were compared. Results from linear regression, polynomial regression, and SVR models were evaluated.
 
-XGBoost with Hyperparameter Optimization
+## XGBoost with Hyperparameter Optimization
+
 To achieve better prediction accuracy, the XGBoost model was used. Hyperparameter optimization was conducted using Grid Search. The model was trained with the best parameters. Predictions were made on the test dataset. XGBoost achieved the highest prediction accuracy compared to other models.
 
 Project Outcomes
